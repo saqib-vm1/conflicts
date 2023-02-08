@@ -11,3 +11,11 @@ function divide(a: number, b:number) {
 function multiply(a: number, b: number) {
     return a * b;
 }
+
+function factorial(num: number): number {
+    let fact: number = 1;
+    for(let i = 1; i <= num; i++) {
+        fact = fact * i;
+    }
+    return fact;
+}
